@@ -1,0 +1,204 @@
+.proceed{
+	width: 100%;
+	height: 1110px;
+	display: block;
+	position:relative;
+	overflow: hidden;
+	top: -146px;
+	bottom: 100px;
+	h2{
+		@include first;
+		color: #1a1811;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 40px;
+		font-weight: 600;
+		margin: 60px auto 40px auto;
+		width: 100%;
+	 	text-align: center;
+		z-index: 2;
+		}
+		p{
+			@include first;
+			color: #1f1c13;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 28px;
+			width: 640px;
+			margin-left: auto;
+		 	margin-right: auto;
+		 	text-align: center;
+			z-index: 3;
+		}
+		.input_form{
+			@include first;
+			width:480px;
+			height:800px;
+			margin: 0 auto 25px auto;
+			background: #ffffff;
+			text-align: center;
+			-webkit-box-shadow: 6px 5px 28px -2px rgba(0,0,0,0.3);
+			-moz-box-shadow: 6px 5px 28px -2px rgba(0,0,0,0.3);
+			box-shadow: 6px 5px 28px -2px rgba(0,0,0,0.3);
+			border-radius: 6px;
+			z-index: 4;
+			form{
+				@include first;
+				margin: 26px;
+				.input{
+					@include first;
+					margin-bottom: 20px;
+					label{
+						color: #1f1c13;
+						font-family: 'Open Sans', sans-serif;
+						font-size: 14px;
+						font-weight: 600;
+						line-height: 18px;
+						margin: 0 0 10px 10px;
+						float: left;
+					}
+					input{
+						@include first;
+						height: 40px;
+						width: 400px;
+						border-radius: 4px;
+						text-align: left;
+						padding-left: 10px;
+						margin-left: auto;
+						margin-right: auto;
+						color: #4e5263;
+						border: 1px solid #666973;
+						.phone{
+							padding-left: 30px;
+						}
+
+					}
+					input:hover{
+						border: 2px solid #08269e;
+						color: #000000;
+					}
+			}
+				.messages{
+					@include first;
+					margin-bottom: 20px;
+					label{
+						color: #1f1c13;
+						font-family: 'Open Sans', sans-serif;
+						font-size: 14px;
+						font-weight: 600;
+						line-height: 18px;
+						margin: 0 0 10px 10px;
+						float: left;
+					}
+					textarea{
+						@include first;
+						height: 100px;
+						width: 400px;
+						border-radius: 4px;
+						font-family: 'Open Sans', sans-serif;
+						font-size: 14px;
+						font-weight: 200;
+						line-height: 18px;
+						text-align: left;
+						padding-left: 10px;
+						padding-top: 10px;
+						margin-left: auto;
+						margin-right: auto;
+						color: #e9eaf2;
+						border: 1px solid #666973;
+					}
+					textarea:hover{
+						border: 2px solid #08269e;
+						color: #000000;
+					}
+				}
+				.ch{
+					@include first;
+					margin-top: 10px;
+					width: 440px;
+					height: 30px;
+					.checkbox{
+						display: inline-block;
+						position: relative;
+						overflow: hidden;
+						width: 10%;
+						margin: 0;
+						background: #fff;
+						top: -74px;
+						left: -20px;
+					}
+					.checkbox_text{
+						display: inline-block;
+						position: relative;
+						overflow: hidden;
+						height: auto;
+						width: 85%;
+						top: -20px;
+						left: -20px;
+						p{
+							display: inline-block;
+							position: relative;
+							overflow: hidden;
+							height: auto;
+							width: 380px;
+							font-family: 'Open Sans', sans-serif;
+							font-size: 12px;
+							font-weight: 200;
+							line-height: 14px;
+							text-align: left;
+							color: #7e818f;
+						}
+					}
+				}
+				.submit{
+					@include first;
+					margin: 4px 0 0 10px;
+					width: 410px;
+					height: 300px;
+					p{
+						display: block;
+						position: relative;
+						overflow: hidden;
+						height: auto;
+						width: 410px;
+						font-family: 'Open Sans', sans-serif;
+						font-size: 12px;
+						font-weight: 200;
+						line-height: 16px;
+						text-align: left;
+						color: #7e818f;
+						a{
+							color: #2746c2;
+						}
+					}
+					input{
+							position: relative;
+							overflow: visible;
+							font-family: 'Open Sans', sans-serif;
+							font-size: 22px;
+							font-weight: 600;
+							display:  table-cell;
+							width: 230px;
+							height: 58px;
+							background: #3978fc;
+							text-align: center;
+							color: #fff;
+							border: none;
+							border-radius: 4px;
+							-webkit-box-shadow: 5px 5px 42px -20px rgba(0,0,0,0.72);
+							-moz-box-shadow: 5px 5px 42px -20px rgba(0,0,0,0.72);
+							box-shadow: 5px 5px 42px -20px rgba(0,0,0,0.72);
+						}
+					}
+				}
+		}
+}
+
+@media (min-width: 768px) and (max-width: 1365px){
+.proceed{
+	height: auto;
+	h2{
+		margin-top: 40px;
+	}
+}
+}
