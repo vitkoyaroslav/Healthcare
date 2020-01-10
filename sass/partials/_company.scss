@@ -1,0 +1,29 @@
+.company {
+	@include first;
+	height: 222px;
+	top: -146px;
+	background-color: #3978fc;
+	@media (max-width: 880px) {
+		display: none;
+	}
+	.slider {
+		@include first;
+		vertical-align: middle;
+		margin-top: 74px;
+		width: 100%;
+		.bxslider {
+			@include first;
+			background-color: #3978fc;
+			box-sizing: border-box;
+			width: 100%;
+			align-items: center;
+			li {
+				width: 100%;
+				.flex-box {
+					@include fl;
+					justify-content: space-around;
+				}
+			}
+		}
+	}
+}
